@@ -1,121 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Contact Page</title>
     <style>
-        header {
-            text-align: center;
-            background-color: bisque;
-        }
+      header {
+        text-align: center;
+        background-color: bisque;
+      }
 
-        #nav-link {
-            color: brown;
-            text-decoration: none;
-        }
+      #nav-link {
+        color: brown;
+        text-decoration: none;
+      }
 
-        fieldset {
-            width: 60%;
-            display: block;
-            margin: auto;
-            border-radius: 15px;
-            border: 5px dotted goldenrod;
-        }
+      fieldset {
+        width: 60%;
+        display: block;
+        margin: auto;
+        border-radius: 15px;
+        border: 5px dotted goldenrod;
+      }
 
-        #survey-header {
-            text-align: center;
-        }
+      #survey-header {
+        text-align: center;
+      }
 
-        h2 {
-            text-align: center;
-        }
-
+      h2 {
+        text-align: center;
+      }
     </style>
-</head>
-<body>
-        <!-- Navbar -->
-        <header>
-            <nav>
-                <a id="nav-link" href="./index.html">Home</a>
-                <a id="nav-link" href="./about.html">About</a>
-                <a id="nav-link" href="./contact.html">Contact</a>
-                <a id="nav-link" href="./projects.html">Projects</a>
-            </nav>
-         </header>
-    <h1>Contact Me</h1>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav>
+        <a id="nav-link" href="./index.html">Home</a>
+        <a id="nav-link" href="./about.html">About</a>
+        <a id="nav-link" href="./contact.html">Contact</a>
+        <a id="nav-link" href="./projects.html">Projects</a>
+      </nav>
+    </header>
+    <h1>Contact Me Page</h1>
     <!-- Design a clear and structures survey form
         Use various input types including text, radio, checkbox, dropdown, and textarea
         Implement labels and basic validation
         Include a submit button
         Make sure this form is linked somewhere on your portfolio before submission -->
-        <br>
-        <h2>Want to hire me? Lets Talk!</h2>
-        <br>
-        <form>
-            <fieldset>
-                <h3 id="survey-header">Please Complete This Brief Survey:</h3>
-                <label for="industry">What industy do you work in?</label>
-                <br><br>
-                    <input type="radio" name="industies" value="tech">
-                    <label for="tech">Tech</label>
-                    <br>
-                    <input type="radio" name="industies" value="education">
-                    <label for="education">Education</label>
-                    <br>
-                    <input type="radio" name="industies" value="construction">
-                    <label for="construction">Construction</label>
-                    <br>
-                    <input type="radio" name="industies" value="other">
-                    <label for="other">Other: </label>
-                    <input type="text" placeholder="If other what?">
-                <br><br>
-                <label for="interest">What interested you about my portfolio?</label>
-                <br><br>
-                <input type="checkbox" name="resume" value="resume">
-                <label for="resume">Resume Page</label>
-                <br>
-                <input type="checkbox" name="resume" value="resume">
-                <label for="resume">About Page</label>
-                <br>
-                <input type="checkbox" name="resume" value="resume">
-                <label for="resume">Contact Page</label>
-                <br>
-                <input type="checkbox" name="resume" value="resume">
-                <label for="resume">Projects Page: </label>
-                <input type="text" placeholder="If projects what project?">
-                <br><br>
-                <label for="referal">How did you hear about me?</label>
-                <br><br>
-                <select name="referal" id="referal-dropdown">
-                    <option value="indeed">Indeed</option>
-                    <option value="socials">Socials</option>
-                    <option value="referal">Referal</option>
-                    <option value="linkedin">Linkedin</option>
-                    <option value="other">Other</option>
-                </select>
-                <br><br>
-                <label for="contact-info">Finally, what is your name and what is an email I can contact you at?</label>
-                <br><br>
-                <label for="name">Name:</label>
-                <br>
-                <input type="text" name="name" placeholder="John Doe">
-                <br>
-                <label for="company-name">Company Name:</label>
-                <br>
-                <input type="text" name="company-name" placeholder="John Doe Construction">
-                <br>
-                <label for="email">Email:</label>
-                <br>
-                <input type="email" name="email" required placeholder="johndoe@gmail.com">
-                <br>
-                <label for="comments">Additional Comments</label>
-                <br>
-                <textarea name="comments" id=""></textarea>
-                <br><br>
-                <input type="submit">
-                <input type="reset">
-            </fieldset>
-        </form>
-</body>
+    <br />
+    <h2>Want to hire me? Lets Talk!</h2>
+    <br />
+    <form>
+      <fieldset>
+        <h3 id="survey-header">Please Complete This Brief Survey:</h3>
+        <label for="industry">What industy do you work in?</label>
+        <br /><br />
+        <input type="radio" name="industies" value="tech" />
+        <label for="tech">Tech</label>
+        <br />
+        <input type="radio" name="industies" value="education" />
+        <label for="education">Education</label>
+        <br />
+        <input type="radio" name="industies" value="construction" />
+        <label for="construction">Construction</label>
+        <br />
+        <input type="radio" name="industies" value="other" />
+        <label for="other">Other: </label>
+        <input type="text" placeholder="If other what?" />
+        <br /><br />
+        <label for="interest">What interested you about my portfolio?</label>
+        <br /><br />
+        <input type="checkbox" name="resume" value="resume" />
+        <label for="resume">Resume Page</label>
+        <br />
+        <input type="checkbox" name="resume" value="resume" />
+        <label for="resume">About Page</label>
+        <br />
+        <input type="checkbox" name="resume" value="resume" />
+        <label for="resume">Contact Page</label>
+        <br />
+        <input type="checkbox" name="resume" value="resume" />
+        <label for="resume">Projects Page: </label>
+        <input type="text" placeholder="If projects what project?" />
+        <br /><br />
+        <label for="referal">How did you hear about me?</label>
+        <br /><br />
+        <select name="referal" id="referal-dropdown">
+          <option value="indeed">Indeed</option>
+          <option value="socials">Socials</option>
+          <option value="referal">Referal</option>
+          <option value="linkedin">Linkedin</option>
+          <option value="other">Other</option>
+        </select>
+        <br /><br />
+        <label for="contact-info"
+          >Finally, what is your name and what is an email I can contact you
+          at?</label
+        >
+        <br /><br />
+        <label for="name">Name:</label>
+        <br />
+        <input type="text" name="name" placeholder="John Doe" />
+        <br />
+        <label for="company-name">Company Name:</label>
+        <br />
+        <input
+          type="text"
+          name="company-name"
+          placeholder="John Doe Construction"
+        />
+        <br />
+        <label for="email">Email:</label>
+        <br />
+        <input
+          type="email"
+          name="email"
+          required
+          placeholder="johndoe@gmail.com"
+        />
+        <br />
+        <label for="comments">Additional Comments</label>
+        <br />
+        <textarea name="comments" id=""></textarea>
+        <br /><br />
+        <input type="submit" />
+        <input type="reset" />
+      </fieldset>
+    </form>
+  </body>
 </html>
